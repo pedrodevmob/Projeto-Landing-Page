@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #3E38F2;
+}
+/* Cabeçalho */
+#menu {
+    align-items: baseline;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+#logo-menu {
+    font-size: 20px;
+    margin-left:15px ;
+    text-decoration: none;
+}
+.menu-itens{
+    margin-right:15px ;
+}
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover {
+    border-radius: 5px;
+    background-color: #230A59;
+}
+
+/* Centro */
+#centro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding-top: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #829FD9;
+    text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#lorem {
+    margin-right: 15px;
+    height: 190px;
+    width: 300px;
+    padding: 25px 0px 0px 0px;
+    border-radius: 45px;
+    background-color:#0029FA;
+    text-align: center;
+    font-size: 14px;
+    color: #829FD9;
+}
+#copyright {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding-top: 10px;
+}
+@media (min-width: 768px){
+    #centro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    #lorem {
+        float: right;
+        margin-right: 15px;
+        height: 190px;
+        width: 300px;
+        padding: 50px 0px 0px;
+        border-radius: 45px;
+        background-color:#0029FA;
+        text-align: center;
+        font-size: 12px;
+        color: #829FD9;
+    }
+    img {
+        float: left;
+        margin-left: 15px;
+        width: 300px;
+        height: 300px;
+    }
+    #copyright {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width:1280px){
+
+    #centro {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    img {
+        width: 500px;
+        height: 500px;
+        float: right;
+        margin-right: 15px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        color: #829FD9;
+        text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25); 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #lorem {
+        float: right;
+        margin-right: 15px;
+        height: 266px;
+        width: 455px;
+        padding: 100px 0px 0px;
+        border-radius: 45px;
+        background-color:#0029FA;
+        text-align: center;
+        font-size: 16px;
+        color: #829FD9;
+    }
+    #copyright {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        padding-top: 10px;
+    }
+}

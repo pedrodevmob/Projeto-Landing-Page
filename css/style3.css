@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #3E38F2;
+}
+/* Cabeçalho */
+#menu {
+    align-items: baseline;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+#logo-menu {
+    font-size: 20px;
+    margin-left:15px ;
+    text-decoration: none;
+}
+.menu-itens{
+    margin-right:15px ;
+}
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover {
+    border-radius: 5px;
+    background-color: #230A59;
+}
+
+/* Centro */
+#centro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #829FD9;
+    text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.formu-login {
+    text-align: center;
+    background-color: #0029FA;
+    width: 330px;
+    height: 322px;
+    border-radius: 45px;
+}
+input {
+    text-align: center;
+    font-size: 14px;
+    color: blanchedalmond;
+    height: 40px;
+    width: 250px;
+    background-color:  #230A59;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+#email {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+#senha {
+    padding-bottom: 25px;
+}
+#botao {
+    padding-bottom: 25px;
+}
+button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: blanchedalmond;
+    height: 40px;
+    width: 150px;
+    background-color:  #230A59;
+    border-style: none;
+    border-radius: 5px;
+}
+/* Rodapé */
+#copyright {
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (min-width: 768px){
+    #centro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formu-login {
+        text-align: center;
+        background-color: #0029FA;
+        width: 400px;
+        height: 322px;
+        border-radius: 45px;
+    }
+    input {
+        text-align: center;
+        font-size: 16px;
+        color: blanchedalmond;
+        height: 40px;
+        width: 250px;
+        background-color:  #230A59;
+        border-style: none;
+        border-radius: 5px;
+        
+    }
+    #email {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    #senha {
+        padding-bottom: 25px;
+    }
+    #botao {
+        padding-bottom: 25px;
+    }
+    button {
+        cursor: pointer;
+        text-align: center;
+        font-size: 14px;
+        color: blanchedalmond;
+        height: 40px;
+        width: 180px;
+        background-color:  #230A59;
+        border-style: none;
+        border-radius: 5px;
+    }
+    /* Rodapé */
+    #copyright {
+        color: white;
+        padding-top: 25px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1280px){
+    #centro {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        color: #829FD9;
+        text-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25); 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .formu-login {
+        text-align: center;
+        background-color: #0029FA;
+        width: 600px;
+        height: 300px;
+        border-radius: 45px;
+    }
+    input {
+        text-align: center;
+        font-size: 18px;
+        color: blanchedalmond;
+        height: 40px;
+        width: 300px;
+        background-color:  #230A59;
+        border-style: none;
+        border-radius: 5px;
+        
+    }
+    #email {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    #senha {
+        padding-bottom: 25px;
+    }
+    #botao {
+        padding-bottom: 25px;
+    }
+    button {
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        color: blanchedalmond;
+        height: 40px;
+        width: 200px;
+        background-color:  #230A59;
+        border-style: none;
+        border-radius: 5px;
+    }
+    /* Rodapé */
+    #copyright {
+        color: white;
+        padding-top: 25px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+}
