@@ -1,5 +1,5 @@
 # Projeto-Landing-Page
-
+Projeto criado,para estudos sobre html5 e css3 com responsividade em @mediaqueries
 
 # Imagens do projeto: Versão desktop ->
 <img src= "https://github.com/pedrodevmob/Projeto-Landing-Page/blob/main/img-do-projeto/tela1.png">
